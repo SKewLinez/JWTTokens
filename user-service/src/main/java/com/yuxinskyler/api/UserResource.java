@@ -20,4 +20,7 @@ public class UserResource {
   public ResponseEntity<List<AppUser>> getUsers() {
     return ResponseEntity.ok().body(userService.getUsers());
   }
+// public String say() {
+//     return "hello";
+// }
 }
