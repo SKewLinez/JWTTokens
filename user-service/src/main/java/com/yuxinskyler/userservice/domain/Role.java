@@ -1,4 +1,4 @@
-package com.yuxinskyler.domain;
+package com.yuxinskyler.userservice.domain;
 
 import javax.persistence.Entity;
 
