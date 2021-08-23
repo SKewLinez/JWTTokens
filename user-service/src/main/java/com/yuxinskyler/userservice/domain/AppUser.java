@@ -11,6 +11,9 @@ import javax.persistence.GeneratedValue;
 import static javax.persistence.GenerationType.*;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
+
+import org.springframework.beans.factory.annotation.Autowire;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

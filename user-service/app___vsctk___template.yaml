@@ -1,0 +1,9 @@
+Resources:
+  userservice:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.yuxinskyler.userservice.service.UserServiceImpl::saveRole
+      CodeUri: /Users/skewlinez/JWTTokens/user-service
+      Runtime: java11
+      Environment:
+        Variables: {}
