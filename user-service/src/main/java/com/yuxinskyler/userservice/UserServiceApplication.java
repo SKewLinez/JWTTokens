@@ -30,6 +30,11 @@ public class UserServiceApplication {
   @Bean
   CommandLineRunner run(UserService userService) {
 	  return args -> {
+		//   userService.deleteUser("john");
+		//   userService.deleteUser("will");
+		//   userService.deleteUser("jim");
+		//   userService.deleteUser("arnold");
+
 		  userService.saveRole(new Role(1, "ROLE_USER"));
 		  userService.saveRole(new Role(2, "ROLE_MANAGER"));
 		  userService.saveRole(new Role(3, "ROLE_ADMIN"));

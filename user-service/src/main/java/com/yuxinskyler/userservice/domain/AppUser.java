@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 public class AppUser {
 
   @Id
-  @GeneratedValue(strategy = AUTO)
+  // @GeneratedValue(strategy = AUTO)
   private long id;
   private String name;
   private String username;
